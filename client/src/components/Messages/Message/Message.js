@@ -21,8 +21,8 @@ const Message = ({ message: { user, text }, name }) => {
     </div>
   ) : (
     <div className="messageContainer justifyStart">
-      <div className="messageBox backgroundLight">
-        <p className="messageText colorDark">
+      <div className="messageBox bg-gray-700">
+        <p className="messageText text-gray-300">
           {ReactEmoji.emojify(text)}
         </p>
       </div>

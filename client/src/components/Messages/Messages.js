@@ -3,7 +3,7 @@ import ScrollToBottom from 'react-scroll-to-bottom'
 import Message from './Message/Message'
 
 const Messages = ({ messages, name }) => (
-  <ScrollToBottom className="messages py-2">
+  <ScrollToBottom className="bg-gray-800 messages py-2">
     {messages.map((message, index) => (
       <div key={index}>
         <Message message={message} name={name} />

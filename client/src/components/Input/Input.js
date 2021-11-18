@@ -4,7 +4,7 @@ const Input = ({ message, setMessage, sendMessage }) => (
   <form className="form">
     <input
       placeholder="Type a message ⌨"
-      className="input px-5"
+      className="input px-5 bg-gray-800 text-gray-200 placeholder-gray-500"
       type="text"
       value={message}
       onChange={(event) => setMessage(event.target.value)}

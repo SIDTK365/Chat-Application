@@ -5,7 +5,7 @@ import { socket } from '../../helpers/socket'
 import InfoBar from '../InfoBar/InfoBar'
 import Input from '../Input/Input'
 import Messages from '../Messages/Messages'
-import TextContainer from '../TextContainer/TextContainer'
+// import TextContainer from '../TextContainer/TextContainer'
 import './Chat.css'
 
 const Chat = ({ location }) => {

@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=ZwFA3YMfkoc
+
+Server Side:
+Cors, Nodemon, Express, Socket.io
+
+Client Side:
+React-Router, Socket.io-client, react-scroll-to-bottom, react-emoji, query-string

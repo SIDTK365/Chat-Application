@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.join__wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #1a1a1d;
+}
+
+.join__container {
+  width: 50%;
+}
+
+.join__input {
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+.join__input:focus {
+  border-radius: 0;
+}
+
+.join__heading {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.join__button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #caa47b;
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.join__button:hover {
+  border-radius: 0;
+  background: #664c37;
+  transition: 0.5s;
+}
+
+.join__button:active {
+  border-radius: 12px;
+  background: #423224;
+  transition: 0.2s;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+}

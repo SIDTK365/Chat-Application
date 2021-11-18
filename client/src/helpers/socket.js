@@ -3,8 +3,8 @@
 
 import { io } from 'socket.io-client'
 
-// const ENDPOINT = 'https://chao-chat.herokuapp.com/';
-const ENDPOINT = 'http://localhost:5000/';
+const ENDPOINT = 'https://chat-application-backend-final.herokuapp.com/';
+// const ENDPOINT = 'http://localhost:5000/';
 
 export const socket = io(ENDPOINT)
 export let socketID = ''

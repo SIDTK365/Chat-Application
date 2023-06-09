@@ -3,7 +3,7 @@
 
 import { io } from 'socket.io-client'
 
-const ENDPOINT = 'https://chat-application-backend-final.herokuapp.com/';
+const ENDPOINT = 'https://chat-application-backend-up58.onrender.com/';
 // const ENDPOINT = 'http://localhost:5000/';
 
 export const socket = io(ENDPOINT)
